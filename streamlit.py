@@ -9,9 +9,9 @@ st.title("🔍 Comparateur de Modèles Random Forest (avec validation croisée)"
 # Chargement des datasets et modèles
 @st.cache_data
 def load_data():
-    df1 = pd.read_csv("learn_model1.csv")
-    df2 = pd.read_csv("learn_model2.csv")
-    df4 = pd.read_csv("learn_model4.csv")
+    df1 = pd.read_csv("data/learn_model1.csv")
+    df2 = pd.read_csv("data/learn_model2.csv")
+    df4 = pd.read_csv("data/learn_model4.csv")
     return df1, df2, df4
 
 @st.cache_resource
