@@ -1,0 +1,20 @@
+# Ignorer les fichiers de modèles lourds
+*.pkl
+
+# Environnement virtuel
+venv/
+env/
+.mon_env/
+__pycache__/
+*.pyc
+
+# Jupyter & cache
+.ipynb_checkpoints/
+*.ipynb~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers VS Code
+.vscode/
