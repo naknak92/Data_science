@@ -7,7 +7,7 @@ Ce projet propose un pipeline complet d’analyse et de comparaison de modèles 
 - `main.ipynb` : Notebook principal d’analyse, préparation et feature engineering sur les données.
 - `streamlit.py` : Application Streamlit interactive pour comparer divers modèles de régression.
 - `data/` : Dossier contenant les jeux de données nécessaires à l’étude (`learn_model1.csv`, `learn_model2.csv`, `learn_model4.csv`, etc.).
-- Fichiers modèles (`model1.pkl`, etc.) et features (ex : `model1_features.pkl`), à déposer à la racine ou dans un dossier prévu.
+- Fichiers modèles (`model1.pkl`, etc.) à déposer à la racine ou dans un dossier prévu.
 
 ## 🚀 Démarrage rapide
 
